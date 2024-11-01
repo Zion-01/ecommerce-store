@@ -1,0 +1,88 @@
+.home {
+    text-align: center;
+  }
+  
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  
+  .hero-content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .featured-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .featured-cars {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .car-card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .car-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .details-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .details-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .about-section, .contact-section {
+    padding: 40px 20px;
+  }
+  
+  .learn-more-link, .contact-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .learn-more-link:hover, .contact-link:hover {
+    background-color: #0056b3;
+  }
+  

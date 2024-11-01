@@ -1,0 +1,42 @@
+.product-listing {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .car-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .car-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .car-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .details-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .details-link:hover {
+    background-color: #0056b3;
+  }
+  
